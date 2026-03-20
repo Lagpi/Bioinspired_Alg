@@ -1,0 +1,34 @@
+name: BioInspAlg
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+
+  # Core
+  - numpy
+  - pandas
+  - scipy
+
+  # ML / optimization
+  - scikit-learn
+
+  # Visualization
+  - matplotlib
+  - seaborn
+
+  # Notebook / dev
+  - jupyterlab
+  - notebook
+  - ipykernel
+
+  # Utilities
+  - tqdm
+
+  # Optional but useful
+  - statsmodels
+
+  # Pip (optional extras)
+  - pip
+  - pip:
+      - ipywidgets

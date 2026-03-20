@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env
+.venv
+venv/
+env/
+rain-opt-env/
+
+# Conda
+*.conda
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (IMPORTANT — avoid pushing large files)
+data/
+*.csv
+*.parquet
+*.h5
+
+# Models / outputs
+models/
+outputs/
+results/
+
+# Logs
+*.log
+
+# Matplotlib cache
+.matplotlib/
+
+# Temporary files
+*.tmp
+*.temp
